@@ -3,9 +3,10 @@ def is_leap(year):
     
     # Write your logic here
     if year % 4 == 0:
-        if year % 100 != 0 or year % 400 == 0:  #The year must be divisible by 4. If it’s divisible by 100, it must also be divisible by 400 to be a leap year. Otherwise, it's not a leap year.
-            leap = True
-    
+        if year % 100 != 0 or year % 400 == 0:  #The year must be divisible by 4. If it’s divisible by 100, 
+                                                #it must also be divisible by 400 to be a leap year. Otherwise, 
+                                                #it's not a leap year.
+           leap = True
     return leap
 
 year = int(input())

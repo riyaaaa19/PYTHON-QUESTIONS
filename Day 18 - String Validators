@@ -1,0 +1,8 @@
+if __name__ == '__main__':
+    s = input()
+    
+    print(any(c.isalnum() for c in s))    # Check for alphanumeric
+    print(any(c.isalpha() for c in s))    # Check for alphabetic
+    print(any(c.isdigit() for c in s))    # Check for digits
+    print(any(c.islower() for c in s))    # Check for lowercase
+    print(any(c.isupper() for c in s))    # Check for uppercase
